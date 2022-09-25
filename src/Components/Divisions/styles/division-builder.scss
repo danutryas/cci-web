@@ -1,0 +1,21 @@
+.cci-division {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    .division-logo {
+        background-color: #E6E6E6;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .division-name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}

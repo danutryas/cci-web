@@ -1,0 +1,35 @@
+@import '../../Assets/style/colors';
+.homepage-wrapper {
+    background-color: $main-color;
+    .homepage {
+        display: flex;
+        align-items: center;
+        height: 650px;
+        margin: 0 110px;
+        .home-info {
+            margin: 0 110px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            flex-basis: 60%;
+            h1 {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 72px;
+                color: $neutral-color;
+            }
+            p {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                color: $neutral-color;
+            }
+        }
+        .home-logo {
+            flex-basis: 40%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

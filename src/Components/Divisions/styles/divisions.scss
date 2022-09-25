@@ -1,0 +1,10 @@
+.divisions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .divisions-list {
+        display: grid;
+        grid-template-columns: repeat(3,250px);
+        grid-template-rows: repeat(2,250px);
+    }
+}
