@@ -18,12 +18,13 @@ const Header = () => {
         </div>
         <ul className="nav-bar">
             <li className='nav-link'><a href="#home">Home</a></li>
-            <li className='nav-link'><a href="#">Divisions</a></li>
-            <li className='nav-link'><a href="#">Gallery</a></li>
-            <li className='nav-link'><a href="#">News</a></li>
-            <li className='nav-link'><a href="#">Organization</a></li>
-            <li className='nav-link'><a href="#">Contact</a></li>
-            <li className='nav-link'><a href="#">Blog</a></li>
+            <li className='nav-link'><a href="#divisions">Divisions</a></li>
+            <li className='nav-link'><a href="#products">Products</a></li>
+            <li className='nav-link'><a href="#gallery">Gallery</a></li>
+            <li className='nav-link'><a href="#news">News</a></li>
+            <li className='nav-link'><a href="#organization">Organization</a></li>
+            <li className='nav-link'><a href="#contact">Contact</a></li>
+            <li className='nav-link'><a href="#blog">Blog</a></li>
         </ul>
     </div>
   )

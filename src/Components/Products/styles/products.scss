@@ -6,6 +6,7 @@
     // height: 100px;
     width: 100%;
     padding: 70px 0 120px 90px;
+    position: relative;
     .products {
         display: flex;
         width: 55%;
@@ -45,5 +46,12 @@
                 }
             }
         }
+    }
+    .sticker-cici {
+        position: absolute;
+        right: 90px;
+        bottom: 0;
+        user-select: none;
+        height: 100%;
     }
 }

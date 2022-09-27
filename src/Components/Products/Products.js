@@ -4,7 +4,7 @@ import './styles/products.scss'
 import eVote from '../Assets/Image/evote.png';
 import students from '../Assets/Image/students.png';
 import summit from '../Assets/Image/Summit21.png';
-
+import sticker from '../Assets/Image/CICI.png';
 
 const Products = () => {
     const products = [
@@ -17,7 +17,7 @@ const Products = () => {
 
     return (
     <div className='products-wrapper'>
-        <div className="products">
+        <div className="products" id='products'>
             <h2>Products</h2>
             <div className="product-list">
                 {
@@ -30,7 +30,7 @@ const Products = () => {
                 
             </div>
         </div>
-        
+        <img className='sticker-cici' src={sticker} alt="sticker-cici" />
     </div>
   )
 }
