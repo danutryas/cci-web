@@ -1,0 +1,49 @@
+@import "../../Assets/style/layout";
+@import "../../Assets/style/colors";
+
+.products-wrapper {
+    background-color: $main-color;
+    // height: 100px;
+    width: 100%;
+    padding: 70px 0 120px 90px;
+    .products {
+        display: flex;
+        width: 55%;
+        flex-direction: column;
+        gap: 15px;
+        h2 {
+            @include font-header();
+            color: $neutral-color;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 68px;
+            row-gap: 30px;
+
+            // product builder 
+            .product{
+                max-width: 315px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                img {
+                    height: 100px;
+                    width: max-content;
+                }
+                h3 {
+                    color: $neutral-color;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+                p {
+                    color: $neutral-color;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}

@@ -1,17 +1,17 @@
 @import '../../Assets/style/colors';
 .homepage-wrapper {
     background-color: $main-color;
+    padding: 0 55px;
     .homepage {
         display: flex;
         align-items: center;
         height: 650px;
-        margin: 0 110px;
         .home-info {
-            margin: 0 110px;
+            margin: 0 55px;
             display: flex;
             flex-direction: column;
             gap: 16px;
-            flex-basis: 60%;
+            flex-basis: 50%;
             h1 {
                 font-weight: 700;
                 font-size: 48px;
@@ -26,9 +26,11 @@
             }
         }
         .home-logo {
-            flex-basis: 40%;
+            flex-basis: 50%;
+            display: flex;
+            justify-content: center;
             img {
-                width: 100%;
+                width: 75%;
             }
         }
     }

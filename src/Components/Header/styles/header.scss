@@ -1,11 +1,14 @@
 @import '../../Assets/style/colors';
+@import '../../Assets/style/layout';
+
 
 .header {
     height: 80px;
-    width: 100%;
+    width: calc(100% - 168px);
     position: absolute;
     top: 0;
-    
+    margin: 0 84px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;

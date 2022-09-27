@@ -1,15 +1,14 @@
 import Header from "./Components/Header/Header";
-import {BrowserRouter as Router} from 'react-router-dom'
 import Homepage from "./Components/Home/Homepage";
 import Divisions from "./Components/Divisions/Divisions";
+import Products from "./Components/Products/Products";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Homepage />
-        <Divisions />
-      </Router>
+      <Header />
+      <Homepage />
+      <Divisions />
+      <Products />
     </div>
   );
 }
